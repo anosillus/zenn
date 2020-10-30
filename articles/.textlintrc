@@ -1,0 +1,54 @@
+{
+  "rules": {
+    "spelling": {
+        "language": "en",
+        "skipPatterns": ["JavaScript"],
+        "wordDefinitionRegexp": "/[\\w']+/g",
+        "suggestCorrections": true
+    },
+    "common-misspellings": true,
+    "spellcheck-tech-word": true,
+    "stop-words": {
+      "defaultWords": true,
+      "skip": ["Blockquote"],
+      "words": [
+        "etc.",
+        "you can"
+      ]
+    },
+    "en-capitalization": true,
+    "date-weekday-mismatch": true,
+    "textlint-rule-stop-words":true,
+    "terminology":true,
+    "apostrophe": true,
+    "diacritics": true,
+    "en-max-word-count": {
+      "max": 50
+    },
+    "no-start-duplicated-conjunction": {
+      "interval": 2
+    },
+    "preset-jtf-style": {
+		"1.2.2.ピリオド(.)とカンマ(,)": false
+    },
+    "preset-ja-technical-writing": true,
+    "ja-no-abusage": true,
+    "no-hoso-kinshi-yogo": true,
+    "ja-hiragana-fukushi": true,
+    "prefer-tari-tari": true,
+    "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
+    "no-nfd": true,
+    "general-novel-style-ja": {
+      "chars_leading_paragraph": false,
+      "no_punctuation_at_closing_quote": true,
+      "space_after_marks": true,
+      "even_number_ellipsises": true,
+      "even_number_dashes": true,
+      "appropriate_use_of_punctuation": true,
+      "appropriate_use_of_interpunct": true,
+      "appropriate_use_of_choonpu": true,
+      "appropriate_use_of_minus_sign": true,
+      "max_arabic_numeral_digits": false
+    }
+  }
+}
